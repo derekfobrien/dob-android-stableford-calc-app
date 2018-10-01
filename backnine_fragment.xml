@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccccff">
+
+    <TableLayout
+        android:id="@+id/table_back9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="1dip">
+
+        <TableRow
+            android:id="@+id/row_back9header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHoleB"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/hole_text" />
+
+            <TextView
+                android:id="@+id/textViewParB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/par_text" />
+
+            <TextView
+                android:id="@+id/textViewSIB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/si_text" />
+
+            <TextView
+                android:id="@+id/textViewScoreB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/score_text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_10"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_02"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_11"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_04"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_12"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_06"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_13"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_08"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_14"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_10"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_15"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_12"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_16"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_14"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_17"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_16"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_hole18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewHole18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_18"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Par18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_SI18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_18"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText_Score18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/num_03"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

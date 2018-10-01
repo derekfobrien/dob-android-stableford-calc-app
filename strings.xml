@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">StablefordCalc</string>
+    <string name="course_name">Course Name:</string>
+    <string name="your_handicap">Your Handicap:</string>
+    <string name="coursename_here">Course name goes here</string>
+    <string name="hcap_number">28</string>
+    <string name="hole_text">Hole</string>
+    <string name="si_text">SI</string>
+    <string name="par_text">Par</string>
+    <string name="score_text">Score</string>
+    <string name="pts_text">Points</string>
+    <string name="num_0">0</string>
+    <string name="num_01">01</string>
+    <string name="num_02">02</string>
+    <string name="num_03">03</string>
+    <string name="num_04">04</string>
+    <string name="num_05">05</string>
+    <string name="num_06">06</string>
+    <string name="num_07">07</string>
+    <string name="num_08">08</string>
+    <string name="num_09">09</string>
+    <string name="num_10">10</string>
+    <string name="num_11">11</string>
+    <string name="num_12">12</string>
+    <string name="num_13">13</string>
+    <string name="num_14">14</string>
+    <string name="num_15">15</string>
+    <string name="num_16">16</string>
+    <string name="num_17">17</string>
+    <string name="num_18">18</string>
+    <string name="calculate">Calculate</string>
+    <string name="front9">Front 9</string>
+    <string name="back9">Back 9</string>
+
+</resources>

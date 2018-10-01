@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.derek.stablefordcalc.MainActivity">
+
+    <fragment
+        android:id="@+id/game_fragment"
+        android:name="com.example.derek.stablefordcalc.GameFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/game_fragment" />
+
+    <fragment
+        android:id="@+id/frontnine_fragment"
+        android:name="com.example.derek.stablefordcalc.FrontnineFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/game_fragment"
+        android:layout_toEndOf="@+id/game_fragment"
+        android:layout_toRightOf="@+id/game_fragment"
+        tools:layout="@layout/frontnine_fragment" />
+
+    <fragment
+        android:id="@+id/backnine_fragment"
+        android:name="com.example.derek.stablefordcalc.BacknineFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/frontnine_fragment"
+        android:layout_toEndOf="@+id/frontnine_fragment"
+        android:layout_toRightOf="@+id/frontnine_fragment"
+        tools:layout="@layout/backnine_fragment" />
+
+    <fragment
+        android:id="@+id/results_fragment"
+        android:name="com.example.derek.stablefordcalc.ResultsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/backnine_fragment"
+        android:layout_toEndOf="@+id/backnine_fragment"
+        android:layout_toRightOf="@+id/backnine_fragment"
+        tools:layout="@layout/results_fragment" />
+
+</RelativeLayout>
